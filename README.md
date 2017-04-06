@@ -4,14 +4,13 @@ ec2ssh is a tool that utilizes the [fzf](https://github.com/junegunn/fzf)
 fuzzy matcher, and the [ec2-fzf](https://github.com/wallentx/ec2-fzf) tool in order to retrieve the public or private address of an ec2
 instance.
 
-![GIF](https://raw.githubusercontent.com/civitaslearning/civops/master/bin/ec2ssh/img/ec2ssh.gif)
-
 ## Installation
 
 ```
-git clone git@github.com:civitaslearning/civops.git
-cd civops/bin/ec2ssh
-./install.sh (-h for install options)
+Download https://github.com/wallentx/ec2ssh/releases/download/1.0/release-1.0.tar.gz to a directory
+Extract files
+Run install.sh as sudo
+Must have ~/.aws directory and credentials all set up
 ```
 
 ## Usage
